@@ -10,6 +10,8 @@
 }
 .menu__navigation{
     background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 .player__button{
     border: none; 
