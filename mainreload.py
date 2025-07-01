@@ -1,11 +1,6 @@
 from livereload import Server
 
 
-def rebuild():
-    print("Site rebuilt")
-
-rebuild()
-
 server = Server()
-server.watch('index.html', rebuild)
+server.watch('index.html')
 server.serve(root='.')
