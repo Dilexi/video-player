@@ -14,7 +14,7 @@ pip install livereload
 ```
 livereload dist
 ```
-Превью сайта можно посмотреть на [GitHub Pages]().
+Превью сайта можно посмотреть на [GitHub Pages](https://dilexi.github.io/video-player/dist/index.html).
 
 ### Настройка
 
