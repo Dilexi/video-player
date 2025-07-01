@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Video Player</title>
+    </head>
+    <body>
+        <div id="player" class="player">
+            <div class="js-video-container videocontainer"></div>
+            <div class="menu__navigation">
+                <div>
+                    <button class="js-play-button player__button" hidden><i class="fa fa-play" aria-hidden="true"></i></button>
+                    <button class="js-pause-button player__button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
+                    <button class="js-volume-button player__button" hidden><i class="fa fa-volume-off" aria-hidden="true"></i></button>
+                    <button class="js-mute-button player__button" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                </div>
+                <button class="js-fullscreen-button player__button"><i class="fa fa-expand" aria-hidden="true"></i></button>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
+        <script src="player.js"></script>
+
+        <script type="text/javascript">
+        createPlayer({elementId: 'player'});
+        </script>
+        
+
+    </body>
+</html>

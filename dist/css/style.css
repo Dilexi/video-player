@@ -1,0 +1,23 @@
+.player{
+    width: 800px; 
+    height: 600px;
+    box-shadow: 0 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.videocontainer{
+    flex-grow: 1;
+}
+.menu__navigation{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.player__button{
+    border: none; 
+    cursor: pointer; 
+    color: white; 
+    background-color: transparent;
+    font-size: 24px;
+    margin-right: 10px;
+}
